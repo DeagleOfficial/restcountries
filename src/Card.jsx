@@ -2,7 +2,7 @@ const Card = ({ country }) => {
 
     console.log (country)
     return (
-        <div className="container card col-lg-4 col-md-2 col-sm-1">
+        <div className="container card ">
             {country.altSpellings[1]}
         </div>
     )

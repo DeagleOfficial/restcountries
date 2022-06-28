@@ -30,17 +30,12 @@ const App = () => {
         </div>
 
         {
-          countries?.length > 0 ? (
+          
             <div className='container cards row'>
               {countries.map((country) => (
-                <Card country = {country} />
-              ))}
+                <Card country = {country} 
             </div>
-          ) : (
-            <div className='empty cards row'>
-              <h2>No countries found</h2>
-          </div>
-          )
+          ) 
         }
     </div>
   );
